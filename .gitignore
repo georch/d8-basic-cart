@@ -1,0 +1,48 @@
+# OS X
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Ignore environment configurations.
+local.*
+*.local
+
+# Ignore drupal core.
+docroot/core
+
+# Ignore Drupal contrib modules.
+docroot/modules/contrib
+docroot/themes/contrib
+docroot/profiles/contrib
+docroot/libraries
+drush/contrib
+
+# Ignore Drupal local settings
+docroot/sites/*/settings.local.php
+docroot/sites/*/local.settings.php
+
+# Ignore Drupal user-generated content.
+docroot/sites/*/files
+docroot/sites/*/private
+
+# Composer
+vendor/
+vendor/.git
+
+# Vagrant
+.vagrant/
+
+# Local docker files
+.docker-sync/*
+.env
+
+# Built directory
+deploy

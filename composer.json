@@ -1,0 +1,5 @@
+{
+    "require": {
+        "droath/project-x": "^0.2.2"
+    }
+}
