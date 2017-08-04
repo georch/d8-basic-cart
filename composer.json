@@ -7,7 +7,10 @@
         "drupal/core": "^8.3",
         "composer/installers": "^1.1",
         "cweagans/composer-patches": "^1.5",
-        "drupal-composer/drupal-scaffold": "^2.0"
+        "drupal-composer/drupal-scaffold": "^2.0",
+        "drupal/console": "^0.11.3",
+        "drupal/console-core": "^1.0@RC",
+        "drupal/console-en": "^1.0@RC"
     },
     "require-dev": {
         "squizlabs/php_codesniffer": "2.*",
