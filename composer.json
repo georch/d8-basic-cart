@@ -10,7 +10,8 @@
         "drupal-composer/drupal-scaffold": "^2.0",
         "drupal/console": "^0.11.3",
         "drupal/console-core": "^1.0@RC",
-        "drupal/console-en": "^1.0@RC"
+        "drupal/console-en": "^1.0@RC",
+        "drupal/admin_toolbar": "^1.19"
     },
     "require-dev": {
         "squizlabs/php_codesniffer": "2.*",
