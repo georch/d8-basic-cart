@@ -1,0 +1,22 @@
+uuid: 77435e36-8f33-4d3b-8e1a-4ba9761f1a22
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - grand_concierge
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: grand_concierge_powered
+theme: grand_concierge
+region: header
+weight: 10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

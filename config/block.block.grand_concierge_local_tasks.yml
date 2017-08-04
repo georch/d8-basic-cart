@@ -1,0 +1,22 @@
+uuid: bad2c9fc-6217-431b-8186-be3a37f11404
+langcode: en
+status: true
+dependencies:
+  theme:
+    - grand_concierge
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: grand_concierge_local_tasks
+theme: grand_concierge
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

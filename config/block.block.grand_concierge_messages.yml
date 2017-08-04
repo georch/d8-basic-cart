@@ -1,0 +1,22 @@
+uuid: 20a81d06-36d9-403e-a68f-2c4c85710c5a
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - grand_concierge
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: grand_concierge_messages
+theme: grand_concierge
+region: header
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

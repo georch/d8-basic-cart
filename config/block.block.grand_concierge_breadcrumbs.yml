@@ -1,0 +1,22 @@
+uuid: bcbaa888-7d33-4e0c-ad26-3c52b4c98cf5
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - grand_concierge
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: grand_concierge_breadcrumbs
+theme: grand_concierge
+region: header
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }
