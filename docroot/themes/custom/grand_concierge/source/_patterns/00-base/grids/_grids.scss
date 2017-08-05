@@ -102,20 +102,6 @@ $grid-sizes: 1, 2, 3, 4, 6;
     }
   }
   @each $size in $grid-sizes {
-    @include breakpoint($bp--xsmall) {
-      &[data-row-items-xsmall="#{$size}"] {
-        @include smart-grid($row-items: $size);
-      }
-    }
-  }
-  @each $size in $grid-sizes {
-    @include breakpoint($bp--small) {
-      &[data-row-items-small="#{$size}"] {
-        @include smart-grid($row-items: $size);
-      }
-    }
-  }
-  @each $size in $grid-sizes {
     @include breakpoint($bp--medium) {
       &[data-row-items-medium="#{$size}"] {
         @include smart-grid($row-items: $size);

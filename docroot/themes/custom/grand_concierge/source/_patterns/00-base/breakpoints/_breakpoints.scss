@@ -11,12 +11,9 @@
 
 // Breakpoint will output fallback selectors in this stylesheet
 @include breakpoint-set("no query fallbacks", true);
+@include breakpoint-set('to ems', true);
 
 // Sign posts
-$bp--xsmall: 380px;
-$bp--small: 500px;
-$bp--medium: 700px;
-$bp--large: 900px;
-$bp--xlarge: 1100px;
-$bp--xxlarge: 1300px;
-$bp--xxxlarge: 1600px;
+$bp--medium: 768px;
+$bp--large: 1024px;
+$bp--xlarge: 1344px;
