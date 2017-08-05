@@ -2,22 +2,22 @@
   "items": [
     {
       "name": "$fs--xxl",
-      "value": "36px",
+      "value": "43px",
       "comment": ""
     },
     {
       "name": "$fs--xl",
-      "value": "20px",
+      "value": "32px",
       "comment": ""
     },
     {
       "name": "$fs--l",
-      "value": "18px",
+      "value": "23px",
       "comment": ""
     },
     {
       "name": "$fs--m",
-      "value": "16px",
+      "value": "18px",
       "comment": ""
     },
     {

@@ -1,15 +1,22 @@
 @mixin button($alt: false) {
-  @include a-link($link: $c-white, $hover: $c-white, $deco--hover: "none");
-  background-color: $c-red;
-  border-radius: $spacing--s;
-  font-weight: $fw--700;
-  padding: ($spacing--s * 3) ($spacing--l * 3);
+  @include a-link($link: $c-grey, $hover: $c-gold, $deco--hover: "none");
+  background-color: $c-grey--light;
+  padding: ($spacing--s * 2) ($spacing--m * 2);
   display: inline-block;
+  border: 1px solid $c-grey--light;
+  font-size: $fs--xs;
+  text-transform: uppercase;
   text-decoration: none;
   text-align: center;
+  cursor: pointer;
+  &:hover {
+    background-color: $c-white;
+    border-color: $c-gold;
+  }
   @if $alt {
-    background: $c-gray--light;
-    color: $c-red;
+    @include a-link($link: $c-white, $hover: $c-gold, $deco--hover: "none");
+    background: $c-gold;
+    border-color: $c-gold;
   }
 }
 

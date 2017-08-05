@@ -1,12 +1,16 @@
-$fs--h1: 52px !default;
-$fs--h2: $fs--xxl !default;
-$fs--h3: $fs--xl !default;
-$fs--h4: $fs--l !default;
-$fs--h5: $fs--m !default;
+$fs--h1: $fs--xxl !default;
+$fs--h2: $fs--xl !default;
+$fs--h3: $fs--l !default;
+$fs--h4: $fs--m !default;
+$fs--h5: $fs--s !default;
 $fs--h6: $fs--s !default;
 
 @mixin heading() {
+  color: $c-grey--dark;
   font-family: $ff--heading;
+  font-weight: $fw--300;
+  line-height: 1em;
+  text-transform: uppercase;
 }
 
 @mixin h1() {
@@ -41,7 +45,6 @@ $fs--h6: $fs--s !default;
 
 h1, .h1 {
   @include h1();
-  color: $c-red;
 }
 
 h2, .h2 {

@@ -1,6 +1,41 @@
 {
   "items": [
     {
+      "name": "$c-gold",
+      "value": "#4F4322",
+      "comment": ""
+    },
+    {
+      "name": "$c-cream",
+      "value": "#F6F1E8",
+      "comment": ""
+    },
+    {
+      "name": "$c-white",
+      "value": "white",
+      "comment": ""
+    },
+    {
+      "name": "$c-grey--light",
+      "value": "#E0E0E0",
+      "comment": ""
+    },
+    {
+      "name": "$c-grey",
+      "value": "#999999",
+      "comment": ""
+    },
+    {
+      "name": "$c-grey--dark",
+      "value": "#333333",
+      "comment": ""
+    },
+    {
+      "name": "$c-black",
+      "value": "black",
+      "comment": ""
+    },
+    {
       "name": "$c-red",
       "value": "hsl(352, 92%, 38%)",
       "comment": "Primary Color. Used for links"
@@ -8,11 +43,6 @@
     {
       "name": "$c-blue",
       "value": "hsl(208, 100%, 50%)",
-      "comment": ""
-    },
-    {
-      "name": "$c-white",
-      "value": "white",
       "comment": ""
     },
     {
@@ -48,11 +78,6 @@
     {
       "name": "$c-gray--darkest",
       "value": "hsl(0, 0%, 16.1%)",
-      "comment": ""
-    },
-    {
-      "name": "$c-black",
-      "value": "black",
       "comment": ""
     }
   ],

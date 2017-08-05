@@ -1,13 +1,13 @@
 {
   "items": [
     {
-      "name": "$ff--lato",
-      "value": "'LatoRegular', sans-serif",
+      "name": "$ff--nunito",
+      "value": "'Nunito', sans-serif",
       "comment": ""
     },
     {
-      "name": "$ff--helvetica",
-      "value": "'Helvetica', sans-serif",
+      "name": "$ff--raleway",
+      "value": "'Raleway', sans-serif",
       "comment": ""
     }
   ],
